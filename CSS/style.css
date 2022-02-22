@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.main-form{
+    display: flex;
+}
+.form-1, .form-2{
+    flex-basis: 50%;
+}
+.start{
+    width: 100%;
+    padding: 100px 0px;
+    background: linear-gradient(to right, #C1DEAE,#1572A1);
+}
+.header{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+}
+.form-2{
+    color: black;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.right-content{
+    padding: 40px 60px;
+}
+.right-content h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+.form-group{
+    margin: 16px 0px;
+  
+}
+.form-control{
+    width: 100%;
+    padding: 14px 10px;
+}
+.d-flex{
+    display: flex;
+}
+.form-control:focus{
+    outline-color: green;
+}
+.my-2{
+    margin: 32px 0px;
+}
+.form-group span{
+    color: black;
+    margin-right: 16px;
+}
+.form-group label{
+    margin-right: 16px;
+}
+.btn{
+    padding: 16px 24px;
+    border: none;
+    background-color: red;
+    color: black;
+    border-radius: 4px;
+}
+.text-right{
+    text-align: right;
+}
+.white{
+    background-color: white;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+}
+.yellow{
+    background-color: yellow;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+}
+.white:hover{
+    background-color: red;
+}
